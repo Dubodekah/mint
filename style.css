@@ -1,0 +1,200 @@
+body{
+    background-color: #ECEEF1;
+    margin: 0;
+    padding: 0;
+    font-family: "AvenirNext", "Avenir", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    float: right;
+    font-size: small;
+    margin-top: 4px;
+    margin-right: 35px;
+    align-items: center;
+}
+
+header{
+    position: relative;
+    top: 60px;
+    display: block;
+    margin: auto;
+    height: 110px;
+    width: 30%;
+    color: #5F6071;
+}
+
+a{
+    color: #0077cf;
+    text-decoration: none;
+}
+
+footer{
+    font-size: small;
+    text-align: center;
+    color: #625F5F;
+    margin-top: 10px;
+}
+
+input{
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    height: 30px;
+    width: 330px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+#privacy-settings{
+    position: fixed;
+    bottom: 0;
+    right: 5%;
+    padding: 10px 12px;
+    border: solid;
+    border-radius: 10%;
+    color: white;
+    background-color: #6B6C72;
+}
+
+#logo{
+    display: block;
+    margin-left: 22%;
+    height: 80%;
+    width: 55%;
+}
+
+#sign-in{
+    position: relative;
+    bottom: 18px;
+    float: right;
+    width: 100px;
+    padding: 10px;
+    margin-left: 5px;
+    border: 1px solid #575757;
+    border-radius: 10%;
+    background-color: #0077c5;
+    color: #FFF;
+}
+
+#nav-items{
+    display: inline;
+}
+
+#account-text{
+    margin-top: 10px;
+    margin-bottom: 0;
+    color: #575757;
+}
+
+
+#lock-one{
+    float: left;
+    margin-left: 8px;
+    height: 14px;
+    width: 14px;
+}
+
+#lock-two{
+    margin-left: 6px;
+    height: 14px;
+    width: 14px;
+}
+
+#main-form{
+    position: relative;
+    height: 580px;
+    width: 400px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #FFF;
+    border: 1px solid #D2D3D6;
+}
+
+#form-heading{
+    text-align: center;
+    color: #4f4f4f;
+    font-size: x-large;
+}
+
+#form-subheading{
+    text-align: center;
+    color: #4f4f4f;
+}
+
+#learn-more{
+    position: relative;
+    bottom: 12px;
+    display: block;
+    text-align: center;
+    font-size: small;
+}
+
+#call-text{
+    position: relative;
+    left: 30px;
+    bottom: 12px;
+    color: #4f4f4f;
+    font-size: x-small;
+}
+
+#submit-button{
+    position: relative;
+    left: 20px;
+    margin: 10px;
+    height: 40px;
+    width: 337px;
+    background-color: #0077c5;
+    text-align: center;
+    color: #FFF;
+    border: 1px solid #0077c5;
+    border-radius: 5px;
+}
+
+#policy-text{
+    text-align: center;
+    color: #4f4f4f;
+    font-size: small;
+    font-style: italic;
+}
+
+#form-footer{
+    position: absolute;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    background-color: #ECEEF1;
+    color: #4f4f4f;
+    font-size: x-small;
+    text-align: center;
+    line-height: 4;
+}
+
+.icon{
+    position: relative;
+    bottom: 10px;
+    height: 25px;
+    width: 25px;
+    margin-left: 8px;
+}
+
+.icon-text{
+    display: inline;
+    position: relative;
+    bottom: 18px;
+}
+
+.input-heading{
+    position: relative;
+    left: 30px;
+    color: #4f4f4f;
+    font-size: medium;
+}
+
+.link{
+    color: #0077cf;
+}
+
+.footer-text{
+    margin: 8px;
+}
