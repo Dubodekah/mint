@@ -1,0 +1,1 @@
+Recreation of Mint.com's signup page.
